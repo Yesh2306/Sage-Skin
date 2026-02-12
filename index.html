@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sage & Skin | Skincare Hospital</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins', sans-serif;
+}
+
+body{
+background:#fff9f6;
+color:#4e5f4e;
+scroll-behavior:smooth;
+}
+
+header{
+background:#a3b18a;
+padding:20px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+color:white;
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:400;
+}
+
+section{
+padding:100px 60px;
+}
+
+.hero{
+height:100vh;
+background:linear-gradient(rgba(255,255,255,0.85),rgba(255,255,255,0.85)),
+url('i.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h2{
+font-size:48px;
+color:#6c8a6e;
+margin-bottom:20px;
+}
+
+.btn{
+margin-top:20px;
+padding:12px 25px;
+background:#dda15e;
+color:white;
+border:none;
+border-radius:25px;
+cursor:pointer;
+text-decoration:none;
+}
+
+.section-card{
+background:white;
+margin-top:40px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+padding:40px;
+}
+
+.section-card h2{
+margin-bottom:20px;
+color:#6c8a6e;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#fef1e8;
+padding:20px;
+border-radius:12px;
+}
+
+.card img, .product img{
+width:100%;
+height:220px;
+object-fit:cover;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+.product{
+background:#f8edeb;
+padding:20px;
+border-radius:12px;
+}
+
+.product a{
+color:#6c8a6e;
+font-weight:600;
+text-decoration:none;
+}
+
+ul{
+line-height:1.8;
+margin-top:10px;
+}
+
+footer{
+background:#a3b18a;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+form{
+display:flex;
+flex-direction:column;
+gap:15px;
+margin-top:20px;
+}
+
+input, select, textarea{
+padding:12px;
+border:1px solid #ccc;
+border-radius:8px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Sage & Skin</h1>
+<nav>
+<a href="#awareness">Awareness</a>
+<a href="#routine">Routine</a>
+<a href="#consultation">Consultation</a>
+<a href="#booking">Book</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Protect. Nourish. Heal.</h2>
+<p>Sage & Skin is a dermatology-focused skincare hospital committed to preventive care, clinical treatment, and patient awareness for lifelong healthy skin.</p>
+<a href="#booking" class="btn">Book Consultation</a>
+</section>
+
+<section class="section-card" id="awareness">
+<h2>Skin Awareness & Protection</h2>
+
+<p>Your skin acts as a protective barrier against pollution, UV radiation, bacteria, and dehydration. Damage to this barrier can lead to acne, pigmentation, premature aging, and infections.</p>
+
+<ul>
+<li>✔ Use sunscreen daily to prevent sun damage & skin cancer risk</li>
+<li>✔ Avoid harsh scrubs that weaken skin barrier</li>
+<li>✔ Keep skin hydrated to maintain elasticity</li>
+<li>✔ Seek medical advice for persistent acne or irritation</li>
+<li>✔ Annual skin check-ups help detect early skin conditions</li>
+</ul>
+
+<p style="margin-top:15px;">
+At Sage & Skin, we conduct awareness sessions on acne management, sun safety, anti-aging prevention, and skin hygiene practices for all age groups.
+</p>
+</section>
+
+<section class="section-card" id="routine">
+<h2>Basic Dermatologist Recommended Routine</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1598440947619-2c35fc9aa908">
+<h3>Morning Routine 🌞</h3>
+<ul>
+<li>Step 1: Gentle cleanser</li>
+<li>Step 2: Antioxidant serum (Vitamin C)</li>
+<li>Step 3: Lightweight moisturizer</li>
+<li>Step 4: Broad spectrum SPF 30+</li>
+</ul>
+</div>
+
+<div class="card">
+<img src=img.jpeg>
+<h3>Night Routine 🌙</h3>
+<ul>
+<li>Step 1: Cleanser / Double cleanse</li>
+<li>Step 2: Prescribed treatment serum</li>
+<li>Step 3: Moisturizer</li>
+<li>Step 4: Adequate sleep (7-8 hrs)</li>
+</ul>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061">
+<h3>Weekly Care 💧</h3>
+<ul>
+<li>Mild exfoliation (1-2 times/week)</li>
+<li>Hydrating mask</li>
+<li>Avoid over-experimenting with products</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section class="section-card" id="consultation">
+<h2>Dermatology Consultation Session</h2>
+
+<p>Our consultation sessions include:</p>
+
+<ul>
+<li>✔ Detailed skin analysis</li>
+<li>✔ Medical history review</li>
+<li>✔ Skin type & concern evaluation</li>
+<li>✔ Personalized treatment plan</li>
+<li>✔ Lifestyle & product guidance</li>
+</ul>
+
+<p style="margin-top:15px;">
+Each session lasts approximately 30–45 minutes and focuses on long-term skin health rather than temporary solutions.
+</p>
+</section>
+
+<section class="section-card" id="booking">
+<h2>Book Appointment</h2>
+
+<form onsubmit="bookAppointment(event)">
+<input type="text" placeholder="Full Name" required>
+<input type="email" placeholder="Email Address" required>
+<input type="tel" placeholder="Phone Number" required>
+<select required>
+<option value="">Select Service</option>
+<option>Acne Consultation</option>
+<option>Laser Treatment</option>
+<option>Skin Check-Up</option>
+<option>General Dermatology</option>
+</select>
+<input type="date" required>
+<textarea placeholder="Describe your concern..." rows="4"></textarea>
+<button type="submit" class="btn">Confirm Appointment</button>
+</form>
+</section>
+
+<footer>
+© 2026 Sage & Skin | Skincare Hospital
+</footer>
+
+<script>
+function bookAppointment(event){
+event.preventDefault();
+alert("Thank you 🌿 Your consultation request has been submitted. Our dermatology team will contact you soon.");
+}
+</script>
+
+</body>
+</html>
